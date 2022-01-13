@@ -22,6 +22,7 @@ class Result {
                     zero.getAndIncrement();
                 else minus.getAndIncrement();
                 }
+
         );
 
         System.out.printf("%.6f %n", plus.get()*1.0/arr.size());
