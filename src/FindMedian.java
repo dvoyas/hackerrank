@@ -21,6 +21,9 @@ class FindMedianResult {
 
     public static int findMedian(List<Integer> arr) {
         // Write your code here
+        int i = 0;
+        System.out.println(i++);
+
         Collections.sort(arr);
         return arr.get((arr.size()-1)/2);
     }

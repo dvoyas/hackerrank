@@ -2,6 +2,8 @@ import java.io.*;
 import java.math.*;
 import java.security.*;
 import java.text.*;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.function.*;
@@ -39,6 +41,14 @@ class FizzBuzzResult {
 public class FizzBuzz {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+//        LocalDateTime localDateTime = LocalDateTime.parse("2018-06-23T05:55:55");
+//        LocalDateTime endOfDate = localDateTime.toLocalDate().atTime(LocalTime.MIN);
+//        System.out.println(endOfDate);
+String [] arr = {"1","rger"};
+List<String> le = Arrays.asList(arr);
+Collections.sort(le);
+        //System.out.println(Arrays.toString("1","rger")); //le));
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
